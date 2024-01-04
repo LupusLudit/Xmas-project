@@ -1,0 +1,103 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  #menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  #message {
+    font-family: 'Arial', serif;
+  }
+  
+  #gallery {
+    gap: 10px;
+    display: flex;
+  }
+  
+  #backImage {
+    position: absolute;
+    top: calc(50% - 30rem);
+    left: calc(50% - 15rem);
+  }
+  
+  #currentCard {
+    position: absolute;
+    top: calc(50% - 30rem);
+    right: calc(50% - 15rem);
+  }
+
+  #sunImage{
+    position: absolute;
+    top: calc(50% - 50px);
+    left: 2rem;
+    height: 100px;
+    width: 100px;
+    transition: .5s;
+  }
+
+  
+  #optionImage {
+    position: absolute;
+    justify-content: center;
+    top: 5rem;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    gap: 10px;
+  }
+  #skipButton {
+    position: absolute;
+    top: calc(50% - 30rem);
+    right: calc(50% - 35rem);
+    cursor: pointer;
+  }
+  
+  #chosen {
+    position: absolute;
+    top: calc(50% - 30rem);
+    width: 50px;
+    height: 50px;
+  }
+  
+  img {
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 1rem;
+  }
+
+  button {
+    background-color: rgb(50, 150, 255);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-weight: bold;
+    border-radius: 1rem;
+    font-size: 1rem;
+    height: 80px;
+    width: 200px;
+  }
+
+  button:hover {
+    background-color:rgb(144, 238, 144);
+    transition: 0.5s;
+  }
+
+  button:active {
+  background-color: rgb(23, 185, 172);;
+ }
+
+.hidden {
+  opacity: 0;
+}
