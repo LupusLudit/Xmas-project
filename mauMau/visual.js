@@ -89,7 +89,7 @@ export class Visual {
         button2.textContent = "Rules";
         button2.id = "menu";
         button2.addEventListener('click', () => {
-            window.location.href = "https://cs.wikipedia.org/wiki/Pr%C5%A1%C3%AD";
+            window.location.href = "https://en.wikipedia.org/wiki/Mau-Mau_(card_game)";
         });
     
         document.body.appendChild(button);
