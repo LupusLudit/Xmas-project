@@ -10,8 +10,8 @@ export class Game{
         this.deck = new Deck();
         this.playCard = "0_0";
         this.previousCard = "0_0";
-        this.previous = "0_0";
-        this.current = "0_0";
+        this.previous = [];
+        this.current = [];
         this.extraDraw = 2;
         this.hasDrew = false;
         this.hasSkipped = false;
