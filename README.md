@@ -6,18 +6,22 @@ You might encounter error like this: "index.html:1 Access to script at 'your fil
 You can fix this error, by folowing theese steps:
 
 1.Open your cmd/powershell.
+
 2.Install "http-server", type:
 ```
 npm install -g http-server
 ```
+
 3.Change dirrectory, so we can acces the wanted file via "http-server", type:
 ```
 cd /path to your dirrectory
 ```
+
 4.Type:
 ```
 http-server
 ```
+
 5.Ctrl+Click the last available link.
 
 The code should now run smoothly.
